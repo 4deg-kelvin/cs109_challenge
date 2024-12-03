@@ -65,13 +65,19 @@ elif st.session_state.showed_intro is True:
             st.header("Question")
             unanswered_q = questions[~questions.index.isin(st.session_state.answered)]
 
-            target_complexity, target_difficulty = util.thompson_sample(st.session_state.complexity_beta, st.session_state.difficulty_beta)
+            do_thompson_sampling = st.checkbox("Use Thompson Sampling", value=True)
 
-            question = None
-            try:
-                question = unanswered_q[(unanswered_q['complexity'] == target_complexity.value) & (unanswered_q['difficulty'] == target_difficulty.value)].sample(1).iloc[0]
-            except Exception as e:
-                st.toast(f"Ran out of questions for {target_complexity.value} and {target_difficulty.value}!")
+            if do_thompson_sampling:
+
+                target_complexity, target_difficulty = util.thompson_sample(st.session_state.complexity_beta, st.session_state.difficulty_beta)
+
+                question = None
+                try:
+                    question = unanswered_q[(unanswered_q['complexity'] == target_complexity.value) & (unanswered_q['difficulty'] == target_difficulty.value)].sample(1).iloc[0]
+                except Exception as e:
+                    st.toast(f"Ran out of questions for {target_complexity.value} and {target_difficulty.value}!")
+                    question = unanswered_q.sample(1).iloc[0]
+            else:
                 question = unanswered_q.sample(1).iloc[0]
 
 
