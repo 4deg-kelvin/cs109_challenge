@@ -78,8 +78,8 @@ elif st.session_state.showed_intro is True:
             st.session_state.answered.append(question.index)
             
             st.markdown(f"**{question['question']}**")
-            st.write(f"Difficulty: {question['difficulty']}")
-            st.write(f"Complexity: {question['complexity']}")
+            st.write(f"Material Difficulty: {question['difficulty']}")
+            st.write(f"Reading Difficulty: {question['complexity']}")
 
             with st.expander("Show Answer"):
                 st.markdown(f"Answer: {question['answer']}")
