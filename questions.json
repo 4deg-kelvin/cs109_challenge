@@ -1,0 +1,195 @@
+[
+    {
+        "question": "Solve the system of equations: 2x + 3y = 12 and x - y = 1",
+        "answer": "From x - y = 1, express x as x = y + 1. Substitute into the first equation: 2(y + 1) + 3y = 12. Simplify: 2y + 2 + 3y = 12, which becomes 5y + 2 = 12. Solve for y: y = 2. Substitute back to find x: x = y + 1 = 3.",
+        "complexity": "Moderate",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Find the roots of the quadratic equation: x^2 - 4x - 5 = 0",
+        "answer": "Use the quadratic formula: x = [4 ± sqrt((4)^2 - 4(1)(-5))]/(2*1). This simplifies to x = [4 ± sqrt(16 + 20)]/2, which is x = [4 ± sqrt(36)]/2. So, x = (4 ± 6)/2, giving roots x = 5 and x = -1.",
+        "complexity": "Moderate",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "A rectangle's length is three times its width. If its area is 108 square units, find its dimensions.",
+        "answer": "Let width be w, then length is 3w. Area is w * 3w = 108. Solve: 3w^2 = 108, w^2 = 36, w = 6. Length is 3w = 18.",
+        "complexity": "Moderate",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Solve the inequality: 2x + 5 > 11",
+        "answer": "Subtract 5 from both sides: 2x > 6. Divide by 2: x > 3.",
+        "complexity": "Low",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Simplify the expression: 3(x + 2) - 2(2x - 1)",
+        "answer": "Distribute: 3x + 6 - 4x + 2. Combine like terms: -x + 8.",
+        "complexity": "Low",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Calculate the area of a circle with a radius of 5 units. Use π ≈ 3.14.",
+        "answer": "Use the formula for the area of a circle: A = πr^2 = 3.14 * (5)^2 = 78.5 square units.",
+        "complexity": "Low",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Find the volume of a rectangular prism with dimensions 4 units by 6 units by 8 units.",
+        "answer": "Use the formula for the volume of a rectangular prism: V = length * width * height = 4 * 6 * 8 = 192 cubic units.",
+        "complexity": "Low",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A train travels 300 miles in 4 hours. What is its average speed in miles per hour?",
+        "answer": "Average speed = total distance / total time = 300 miles / 4 hours = 75 miles per hour.",
+        "complexity": "Low",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Solve the equation for x: 2(x + 3) = 10",
+        "answer": "Distribute: 2x + 6 = 10. Subtract 6 from both sides: 2x = 4. Divide by 2: x = 2.",
+        "complexity": "Low",
+        "difficulty": "Easy"
+    },
+    {
+      "question": "Solve the equation for x: 3x + 5 = 20",
+      "answer": "Subtract 5 from both sides: 3x = 15. Divide both sides by 3: x = 5.",
+      "complexity": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Simplify the expression: 4(2x + 3) - 5x",
+      "answer": "Distribute the 4: 8x + 12 - 5x. Combine like terms: 3x + 12.",
+      "complexity": "Moderate",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Calculate the area of a triangle with a base of 10 units and a height of 6 units.",
+      "answer": "Use the formula for the area of a triangle: Area = (1/2) * base * height = (1/2) * 10 * 6 = 30 square units.",
+      "complexity": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Find the volume of a cylinder with a radius of 3 units and a height of 7 units. Use π ≈ 3.14.",
+      "answer": "Use the formula for the volume of a cylinder: V = πr^2h = 3.14 * (3)^2 * 7 = 197.82 cubic units.",
+      "complexity": "Moderate",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "A line graph shows the temperature over a week. On Monday, the temperature was 70°F, and on Friday, it was 80°F. What is the average temperature change per day from Monday to Friday?",
+      "answer": "Calculate the total change in temperature: 80°F - 70°F = 10°F. Divide by the number of days (4): (10°F)/4 = 2.5°F per day.",
+      "complexity": "High",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "If 4 apples cost $6, how much will 10 apples cost?",
+      "answer": "Set up a proportion: (4/6) = (10/x). Cross-multiply and solve for x: 4x = 60, x = $15.",
+      "complexity": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Simplify the following complex algebraic expression: (x^2 + 3x + 2)/(x + 1) - (x + 2)",
+      "answer": "Factor the numerator and cancel common terms: (x + 1)(x + 2)/(x + 1) - (x + 2) = (x + 2) - (x + 2) = 0.",
+      "complexity": "High",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "A store is having a 20% off sale on all items. If a shirt originally costs $40, how much will it cost after the discount?",
+      "answer": "Calculate the discount: 20% of $40 is $8. Subtract the discount from the original price: $40 - $8 = $32.",
+      "complexity": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "A rectangle has a perimeter of 50 units. If one side is 10 units long, what is the length of the other side?",
+      "answer": "The perimeter formula for a rectangle is 2(length + width). Plug in the known values: 2(10 + width) = 50. Solve for width: width = 15 units.",
+      "complexity": "Moderate",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "A right triangle has one leg measuring 5 units and the hypotenuse measuring 13 units. Find the length of the other leg.",
+      "answer": "Use the Pythagorean theorem: a^2 + b^2 = c^2. Here, 5^2 + b^2 = 13^2. Solve for b: b = √144 = 12 units.",
+      "complexity": "Moderate",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "A car travels at an average speed of 60 miles per hour for the first 3 hours of a trip, then at an average speed of 50 miles per hour for the remaining 2 hours. What is the total distance traveled?",
+      "answer": "Calculate distance for each segment: (60 * 3) + (50 * 2) = 180 + 100 = 280 miles.",
+      "complexity": "High",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "A circle has an area of 36π square units. What is the radius of the circle?",
+      "answer": "Use the area formula for a circle: A = πr^2. Solve for r: r = √36 = 6 units.",
+      "complexity": "Low",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "If f(x) = 2x^3 + 3x^2 - 5x + 6, find f(-2).",
+      "answer": "Substitute x = -2 into the function: f(-2) = 2(-2)^3 + 3(-2)^2 - 5(-2) + 6 = -16 + 12 + 10 + 6 = 12.",
+      "complexity": "High",
+      "difficulty": "Medium"
+    },
+    {
+        "question": "A train travels from City A to City B at a speed of 60 km/h and returns at a speed of 40 km/h. What is the average speed for the entire journey?",
+        "answer": "Let the distance between the cities be D. Time for the first trip is D/60, and for the return trip is D/40. Total time = D/60 + D/40 = 5D/120. Total distance = 2D. Average speed = Total distance / Total time = 2D / (5D/120) = 48 km/h.",
+        "complexity": "High",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A box contains 3 red, 4 blue, and 5 green marbles. If two marbles are drawn at random, what is the probability that both are blue?",
+        "answer": "Total ways to draw two marbles: C(12, 2) = 66. Ways to draw two blue marbles: C(4, 2) = 6. Probability = 6/66 = 1/11.",
+        "complexity": "High",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "In a class of 30 students, each student plays either basketball or soccer or both. If 18 students play basketball and 20 play soccer, how many students play both sports?",
+        "answer": "Use the principle of inclusion-exclusion: Total = Basketball + Soccer - Both. So, Both = Basketball + Soccer - Total = 18 + 20 - 30 = 8.",
+        "complexity": "High",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A rectangle is inscribed in a circle with a radius of 10 units. If one side of the rectangle is 12 units, find the length of the other side.",
+        "answer": "The diagonal of the rectangle is equal to the diameter of the circle (20 units). Using Pythagoras' theorem: 12^2 + b^2 = 20^2. Solve for b: b^2 = 400 - 144, b^2 = 256, b = 16.",
+        "complexity": "High",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "A farmer has a rectangular field that is twice as long as it is wide. If the perimeter of the field is 300 meters, what are its dimensions?",
+        "answer": "Let width be w and length be 2w. Perimeter is 2(w + 2w) = 300. Solve: 6w = 300, w = 50. Length is 2w = 100. Dimensions are 50 meters by 100 meters.",
+        "complexity": "High",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Solve for x: 2^x = 32",
+        "answer": "Since 32 is 2 raised to the power of 5, x = 5.",
+        "complexity": "Low",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Evaluate the limit: lim (x -> 0) (sin(x)/x)",
+        "answer": "The limit of sin(x)/x as x approaches 0 is 1.",
+        "complexity": "Low",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Find the derivative of f(x) = x^3 at x = 2.",
+        "answer": "The derivative of f(x) = x^3 is f'(x) = 3x^2. At x = 2, f'(2) = 3(2)^2 = 12.",
+        "complexity": "Low",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Solve for y: log(y) = 3",
+        "answer": "If log(y) = 3, then y = 10^3 = 1000.",
+        "complexity": "Low",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Compute the integral: ∫ from 0 to 1 of (3x^2) dx",
+        "answer": "The integral of 3x^2 is x^3. Evaluate from 0 to 1: [1^3 - 0^3] = 1.",
+        "complexity": "Low",
+        "difficulty": "Hard"
+    }
+
+  ]
