@@ -104,11 +104,11 @@ def draw_complexity_difficulty(complexity_pmf, difficulty_pmf):
     st.altair_chart(difficulty_chart, use_container_width=True)
 def draw_complexity_difficulty_beta(complexity_beta, difficulty_beta):
     # Extract alpha and beta parameters
-    alpha_complexity = [complexity_beta[c.value][0] for c in Complexity]
-    beta_complexity = [complexity_beta[c.value][1] for c in Complexity]
+    alpha_complexity = [complexity_beta[c][0] for c in complexity_beta.keys()]
+    beta_complexity = [complexity_beta[c][1] for c in complexity_beta.keys()]
 
-    alpha_difficulty = [difficulty_beta[d.value][0] for d in Difficulty]
-    beta_difficulty = [difficulty_beta[d.value][1] for d in Difficulty]
+    alpha_difficulty = [difficulty_beta[d][0] for d in difficulty_beta.keys()]
+    beta_difficulty = [difficulty_beta[d][1] for d in difficulty_beta.keys()]
 
     # Generate x values
     x = np.linspace(0, 1, 100)
