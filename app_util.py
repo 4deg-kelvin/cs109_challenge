@@ -139,13 +139,13 @@ def draw_complexity_difficulty_beta(complexity_beta, difficulty_beta):
     cols_complexity = st.columns(3)
     for i, (c_name, pdf) in enumerate(zip(Complexity, pdf_complexity)):
         with cols_complexity[i]:
-            chart = create_altair_chart(x, pdf, f'Complexity: {c_name.value}')
+            chart = create_altair_chart(x, pdf, f'Reading Difficulty: {c_name.value}')
             st.altair_chart(chart, use_container_width=True)
 
     cols_difficulty = st.columns(3)
     for i, (d_name, pdf) in enumerate(zip(Difficulty, pdf_difficulty)):
         with cols_difficulty[i]:
-            chart = create_altair_chart(x, pdf, f'Difficulty: {d_name.value}')
+            chart = create_altair_chart(x, pdf, f'Material Difficulty: {d_name.value}')
             st.altair_chart(chart, use_container_width=True)
 
 def thompson_sample(complexity_beta, difficulty_beta):
